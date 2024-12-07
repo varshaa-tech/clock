@@ -9,17 +9,26 @@ body{
 .clock-bg{
     position: absolute;
     background-color: aliceblue;
-    height: 600px;
+    height: 650px;
     width: 600px;
-    margin: 100px 500px;
+    margin:  100px;
     border: 8px solid rgb(21, 196, 129);
-    border-radius: 50%;
+    border-radius: 70%;
     h1{
         position: absolute;
         top: 160px;
         left: 290px;
         font-weight: bold;
         font-size: 90px;
+    }
+    p{
+        color: rgb(38, 211, 188);
+        position: absolute;
+        bottom:  0px;
+        right: -190px;
+        font-size: 40px;
+        transform: 3s;
+
     }
 }
 .number{
@@ -36,32 +45,32 @@ body{
     }
     .hour-3{
         position: absolute;
-        top: 180px;
+        top: 200px;
         left: 550px;
     }
     .hour-4{
         position: absolute;
-        top: 300px;
+        top: 320px;
         left:520px;
     }
     .hour-5{
         position: absolute;
-        top: 410px;
+        top: 450px;
         left: 420px;
     }
     .hour-6{
         position: absolute;
-        top: 450px;
+        top: 505px;
         left: 280px;
     }
     .hour-7{
         position: absolute;
-        top: 415px;
+        top: 445px;
         left: 135px;
     }
     .hour-8{
         position: absolute;
-        top:320px;
+        top:330px;
         left: 40px;
     }
     .hour-9{
@@ -93,6 +102,7 @@ body{
     top:100px;
     left: 300px;
     transform: rotate(0deg);
+    transform-origin: bottom left;
     h1{
         position: absolute;
         font-size: 40px;
@@ -108,9 +118,10 @@ body{
     width: 6px;
     background-color: black;
     height: 150px;
-    top:150px;
+    top:148px;
     left: 298px;
     transform: rotate(0deg);
+    transform-origin: bottom left;
     h1{
         position: absolute;
         font-size: 40px;
@@ -129,4 +140,5 @@ body{
     top:70px;
     left: 300px;
     transform: rotate(0deg);
+    transform-origin: bottom left;
 }
