@@ -1,0 +1,132 @@
+body{
+    position: relative;
+    margin: 20px;
+    background-color: black;
+}
+.bg{
+    width: 600px;
+}
+.clock-bg{
+    position: absolute;
+    background-color: aliceblue;
+    height: 600px;
+    width: 600px;
+    margin: 100px 500px;
+    border: 8px solid rgb(21, 196, 129);
+    border-radius: 50%;
+    h1{
+        position: absolute;
+        top: 160px;
+        left: 290px;
+        font-weight: bold;
+        font-size: 90px;
+    }
+}
+.number{
+    position: absolute;
+    .hour-1{
+        position: absolute;
+        top:-35px;
+        left: 430px;
+    }
+    .hour-2{
+        position: absolute;
+        top: 60px;
+        left: 520px;
+    }
+    .hour-3{
+        position: absolute;
+        top: 180px;
+        left: 550px;
+    }
+    .hour-4{
+        position: absolute;
+        top: 300px;
+        left:520px;
+    }
+    .hour-5{
+        position: absolute;
+        top: 410px;
+        left: 420px;
+    }
+    .hour-6{
+        position: absolute;
+        top: 450px;
+        left: 280px;
+    }
+    .hour-7{
+        position: absolute;
+        top: 415px;
+        left: 135px;
+    }
+    .hour-8{
+        position: absolute;
+        top:320px;
+        left: 40px;
+    }
+    .hour-9{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+    }
+    .hour-10{
+        position: absolute;
+        top: 60px;
+        left: 25px;
+    }
+    .hour-11{
+        position: absolute;
+        top:-35px;
+        left: 120px;
+    }
+    .hour-12{
+        position: absolute;
+        top: -70px;
+        left: 250px;
+    }
+}
+.minute-hand{
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 200px;
+    top:100px;
+    left: 300px;
+    transform: rotate(0deg);
+    h1{
+        position: absolute;
+        font-size: 40px;
+        color: #000;
+        top: -43px;
+        left: -8px;
+        font-weight: bold;
+        transform: rotate(180deg);
+    }
+}
+.hour-hand{
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    height: 150px;
+    top:150px;
+    left: 298px;
+    transform: rotate(0deg);
+    h1{
+        position: absolute;
+        font-size: 40px;
+        color: #000;
+        top: -43px;
+        left: -8px;
+        font-weight: bold;
+        transform: rotate(180deg);
+    }
+}
+.second-hand{
+    position: absolute;
+    width: 2px;
+    background-color: black;
+    height: 230px;
+    top:70px;
+    left: 300px;
+    transform: rotate(0deg);
+}
