@@ -12,8 +12,8 @@ setInterval(
     second=d.getSeconds()*6;
     minute=d.getMinutes()*6;
     hour=d.getHours()*30+Math.round(minute/12);
-    document.getElementById("minute"),style.transform="rotate("+minute+"deg)";
-    document.getElementById("hour"),style.transform="rotate("+hour+"deg)";
-    document.getElementById("second"),style.transform="rotate("+second+"deg)";
+    document.getElementById("minute").style.transform="rotate("+minute+"deg)";
+    document.getElementById("hour").style.transform="rotate("+hour+"deg)";
+    document.getElementById("second").style.transform="rotate("+second+"deg)";
     },1000
 );
